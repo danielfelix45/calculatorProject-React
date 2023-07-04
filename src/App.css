@@ -44,3 +44,33 @@
     font-weight: bold;
     text-align: center;
 }
+
+.result{
+    background-color: #00B63E;
+    width: 100%;
+    max-width: 26.25rem;
+    padding: 1.25rem 1.75rem;
+    border-radius: 0.25rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0;
+    transition: transform 0.8s;
+}
+
+.result:hover{
+    transform: scale(1.1);
+}
+
+.result-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.result span{
+    color: #fff;
+    margin-bottom: 0.5rem;
+    font-size: 1.12rem;
+}
